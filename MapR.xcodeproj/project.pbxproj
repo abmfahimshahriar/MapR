@@ -11,6 +11,8 @@
 		2CDB2C3D272DDBCF00DBF6ED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDB2C3C272DDBCF00DBF6ED /* ContentView.swift */; };
 		2CDB2C3F272DDBD400DBF6ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CDB2C3E272DDBD400DBF6ED /* Assets.xcassets */; };
 		2CDB2C42272DDBD400DBF6ED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CDB2C41272DDBD400DBF6ED /* Preview Assets.xcassets */; };
+		2CDB2C4A272DE1DE00DBF6ED /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = 2CDB2C48272DE1DD00DBF6ED /* locations.json */; };
+		2CDB2C4B272DE1DE00DBF6ED /* tips.json in Resources */ = {isa = PBXBuildFile; fileRef = 2CDB2C49272DE1DE00DBF6ED /* tips.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		2CDB2C3C272DDBCF00DBF6ED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2CDB2C3E272DDBD400DBF6ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2CDB2C41272DDBD400DBF6ED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2CDB2C48272DE1DD00DBF6ED /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
+		2CDB2C49272DE1DE00DBF6ED /* tips.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tips.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 				2CDB2C3A272DDBCF00DBF6ED /* MapRApp.swift */,
 				2CDB2C3C272DDBCF00DBF6ED /* ContentView.swift */,
 				2CDB2C3E272DDBD400DBF6ED /* Assets.xcassets */,
+				2CDB2C48272DE1DD00DBF6ED /* locations.json */,
+				2CDB2C49272DE1DE00DBF6ED /* tips.json */,
 				2CDB2C40272DDBD400DBF6ED /* Preview Content */,
 			);
 			path = MapR;
@@ -126,6 +132,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CDB2C42272DDBD400DBF6ED /* Preview Assets.xcassets in Resources */,
+				2CDB2C4B272DE1DE00DBF6ED /* tips.json in Resources */,
+				2CDB2C4A272DE1DE00DBF6ED /* locations.json in Resources */,
 				2CDB2C3F272DDBD400DBF6ED /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
