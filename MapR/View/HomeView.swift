@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct HomeView: View {
+    @ObservedObject var userViewModel = UserViewModel()
+    
     var body: some View {
         TabView {
             NavigationView {
@@ -17,7 +19,16 @@ struct HomeView: View {
                 Image(systemName: "airplane.circle.fill")
                 Text("Map")
             }
+            
+            NavigationView {
+                ContentView()
+            }
+            .tabItem {
+                Image(systemName: "star.fill")
+                Text("You")
+            }
         }
+        .environmentObject(userViewModel)
     }
 }
 
