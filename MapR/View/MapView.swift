@@ -25,7 +25,7 @@ struct MapView: View {
                         }
                     }
                 }
-                .navigationTitle("Locations")
+                .navigationTitle("Find Netlighters")
     }
 }
 

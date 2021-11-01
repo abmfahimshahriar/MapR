@@ -18,7 +18,6 @@ struct UserAvatarView: View {
                 .scaledToFit()
                 .frame(width: 40, height: 40)
                 .shadow(radius: 3)
-                .padding([.horizontal, .vertical], 16)
         }
         .cornerRadius(50)
     }

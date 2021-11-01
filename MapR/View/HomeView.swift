@@ -16,7 +16,7 @@ struct HomeView: View {
                 MapView()
             }
             .tabItem {
-                Image(systemName: "airplane.circle.fill")
+                Image(systemName: "map.circle")
                 Text("Map")
             }
             
@@ -24,7 +24,7 @@ struct HomeView: View {
                 ContentView()
             }
             .tabItem {
-                Image(systemName: "star.fill")
+                Image(systemName: "person.circle")
                 Text("You")
             }
         }
