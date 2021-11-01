@@ -18,6 +18,8 @@
 		2CDB2C56272E1F4000DBF6ED /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDB2C55272E1F4000DBF6ED /* UserViewModel.swift */; };
 		2CDB2C58272E244F00DBF6ED /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDB2C57272E244F00DBF6ED /* MapView.swift */; };
 		2CFF601027307CA5008C3FF6 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 2CFF600F27307CA5008C3FF6 /* Kingfisher */; };
+		2CFF601227307F99008C3FF6 /* UserDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFF601127307F99008C3FF6 /* UserDetailsView.swift */; };
+		2CFF6014273084B7008C3FF6 /* UserAvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFF6013273084B7008C3FF6 /* UserAvatarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		2CDB2C52272E1A2400DBF6ED /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		2CDB2C55272E1F4000DBF6ED /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
 		2CDB2C57272E244F00DBF6ED /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		2CFF601127307F99008C3FF6 /* UserDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsView.swift; sourceTree = "<group>"; };
+		2CFF6013273084B7008C3FF6 /* UserAvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAvatarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +95,8 @@
 			children = (
 				2CDB2C57272E244F00DBF6ED /* MapView.swift */,
 				2CDB2C4F272E170C00DBF6ED /* HomeView.swift */,
+				2CFF601127307F99008C3FF6 /* UserDetailsView.swift */,
+				2CFF6013273084B7008C3FF6 /* UserAvatarView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -189,10 +195,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CFF6014273084B7008C3FF6 /* UserAvatarView.swift in Sources */,
 				2CDB2C53272E1A2400DBF6ED /* User.swift in Sources */,
 				2CDB2C58272E244F00DBF6ED /* MapView.swift in Sources */,
 				2CDB2C50272E170C00DBF6ED /* HomeView.swift in Sources */,
 				2CDB2C3D272DDBCF00DBF6ED /* ContentView.swift in Sources */,
+				2CFF601227307F99008C3FF6 /* UserDetailsView.swift in Sources */,
 				2CDB2C56272E1F4000DBF6ED /* UserViewModel.swift in Sources */,
 				2CDB2C3B272DDBCF00DBF6ED /* MapRApp.swift in Sources */,
 			);

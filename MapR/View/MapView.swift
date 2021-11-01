@@ -13,18 +13,16 @@ struct MapView: View {
     @EnvironmentObject var userViewModel: UserViewModel
     
     @State var region = MKCoordinateRegion(
-            center: CLLocationCoordinate2D(latitude: 51.507222, longitude: -0.1275),
-            span: MKCoordinateSpan(latitudeDelta: 40, longitudeDelta: 40)
+            center: CLLocationCoordinate2D(latitude: 48.147241, longitude: 11.551077),
+            span: MKCoordinateSpan(latitudeDelta: 0.25, longitudeDelta: 0.25)
         )
     
     var body: some View {
         Map(coordinateRegion: $region, annotationItems: userViewModel.users) { user in
                     MapAnnotation(coordinate: CLLocationCoordinate2D(latitude: user.latitude, longitude: user.longitude)) {
-                        KFImage(URL(string: user.imageUrl))
-                            .resizable()
-                            .cornerRadius(50)
-                            .frame(width: 40, height: 40)
-                            .shadow(radius: 3)
+                        NavigationLink(destination: UserDetailsView(user: user)) {
+                            UserAvatarView(imageUrl: user.imageUrl)
+                        }
                     }
                 }
                 .navigationTitle("Locations")

@@ -3,24 +3,24 @@
         "id": 1,
         "name": "Fahim Shahriar",
         "about": "Something about me.",
-        "latitude": 57.1200,
-        "longitude": -4.7100,
+        "latitude": 48.153113,
+        "longitude": 11.444012,
         "imageUrl": "https://firebasestorage.googleapis.com/v0/b/pokedex-bb36f.appspot.com/o/pokemon_images%2F2CF15848-AAF9-49C0-90E4-28DC78F60A78?alt=media&token=15ecd49b-89ff-46d6-be0f-1812c948e334"
     },
     {
         "id": 2,
         "name": "Quazi Dhruba",
         "about": "Something about me.",
-        "latitude": 59.1200,
-        "longitude": -4.7100,
+        "latitude": 48.157649,
+        "longitude": 11.532408,
         "imageUrl": "https://firebasestorage.googleapis.com/v0/b/pokedex-bb36f.appspot.com/o/pokemon_images%2FD574A34D-6904-4EE2-8744-CC168094724F?alt=media&token=605a11a7-86f7-40cf-9593-fe92c51ab53d"
     },
     {
         "id": 3,
         "name": "Samin Yasir",
         "about": "Something about me.",
-        "latitude": 55.1200,
-        "longitude": -4.7100,
+        "latitude": 48.147241,
+        "longitude": 11.551077,
         "imageUrl": "https://firebasestorage.googleapis.com/v0/b/pokedex-bb36f.appspot.com/o/pokemon_images%2FF0F9F418-BC72-40B8-BE22-F401D506185B?alt=media&token=2cee6cce-2256-43ad-a824-d97b8a646d37"
     },
 ]
