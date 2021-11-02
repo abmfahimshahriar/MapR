@@ -74,8 +74,6 @@ struct FilterView: View {
                     Button("Filter") {
                         userViewModel.filterUsers(selectedInterest: interestSelection, selectedSkill: skillsSelection)
                         showFilterPopOver = false
-                        interestSelection = ""
-                        skillsSelection = ""
                         
                     }
                     .frame(width: 80, height: 20)
@@ -101,11 +99,6 @@ struct FilterView: View {
                     Spacer()
                 }
                 
-                Text("\(interestSelection)")
-                    .foregroundColor(.blue)
-                
-                Text("\(skillsSelection)")
-                    .foregroundColor(.blue)
             }
         }
     }
