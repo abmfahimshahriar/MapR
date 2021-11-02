@@ -55,10 +55,29 @@ struct UserDetailsView: View {
                         .foregroundColor(Color.white)
                         
                         Spacer()
+                        
+                        Button(action: {
+                            // add to favourites
+                        }, label: {
+                            Image(systemName: "heart")
+                                .font(.system(size: 40))
+                        })
+                        
+                        Spacer()
+                        
+                        Button(action: {
+                            // add to favourites
+                        }, label: {
+                            Image(systemName: "paperplane")
+                                .font(.system(size: 40))
+                        })
+                        
+                        Spacer()
                     }
                     
                     VStack {
                         HStack {
+                            Image(systemName: "info.circle")
                             Text("About")
                                 .font(.title2)
                                 .bold()
@@ -78,6 +97,7 @@ struct UserDetailsView: View {
                     
                     VStack {
                         HStack {
+                            Image(systemName: "hand.thumbsup.circle")
                             Text("Interests")
                                 .font(.title2)
                                 .bold()
@@ -87,7 +107,9 @@ struct UserDetailsView: View {
                         .padding([.horizontal], 16)
                         
                         HStack {
-                            Text("Cycling, Swimming, Trekking")
+                            ForEach(user.interests, id: \.self) { interest in
+                                Text("\(interest),")
+                            }
                             
                             Spacer()
                         }
@@ -97,6 +119,7 @@ struct UserDetailsView: View {
                     
                     VStack {
                         HStack {
+                            Image(systemName: "brain.head.profile")
                             Text("Skills")
                                 .font(.title2)
                                 .bold()
@@ -106,7 +129,9 @@ struct UserDetailsView: View {
                         .padding([.horizontal], 16)
                         
                         HStack {
-                            Text("Angular, React, Swift, Express.js")
+                            ForEach(user.skills, id: \.self) { skill in
+                                Text("\(skill),")
+                            }
                             
                             Spacer()
                         }
